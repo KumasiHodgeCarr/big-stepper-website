@@ -79,7 +79,7 @@ export default function Home() {
             transition={{ delay: 0.7 }}
           >
             <a
-              href="https://t.me/BigStepper"
+              href="https://t.me/+ONAtPATEQ4s5Zjc0"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 bg-stepper-gold hover:bg-stepper-solar rounded-full text-xl font-bold text-stepper-black transition-all transform hover:scale-105 shadow-lg shadow-stepper-gold/50"
@@ -405,7 +405,7 @@ export default function Home() {
                 </p>
 
                 <p className="text-xl md:text-2xl font-semibold">
-                  Tag <span className="text-blue-400">@BigStepperCoin</span> with{' '}
+                  Tag <span className="text-blue-400">@BIGSTEPPERCOIN</span> with{' '}
                   <span className="text-purple-400">#MyBigStep</span>
                 </p>
 
@@ -450,7 +450,7 @@ export default function Home() {
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <motion.a
               whileHover={{ scale: 1.05 }}
-              href="https://twitter.com/BigStepperCoin"
+              href="https://x.com/BIGSTEPPERCOIN"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 bg-stepper-blue hover:bg-stepper-blue/80 rounded-full text-xl font-bold transition-all shadow-lg shadow-stepper-blue/30 w-full sm:w-auto"
@@ -459,7 +459,7 @@ export default function Home() {
             </motion.a>
             <motion.a
               whileHover={{ scale: 1.05 }}
-              href="https://t.me/BigStepper"
+              href="https://t.me/+ONAtPATEQ4s5Zjc0"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 bg-stepper-gold hover:bg-stepper-solar rounded-full text-xl font-bold text-stepper-black transition-all shadow-lg shadow-stepper-gold/30 w-full sm:w-auto"
