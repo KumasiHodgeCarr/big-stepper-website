@@ -5,7 +5,7 @@
 export function getStepperImages() {
   const images = [];
   // Update this number when you add more stepper-N.png images to /public
-  const totalImages = 5;
+  const totalImages = 8;
 
   for (let i = 1; i <= totalImages; i++) {
     images.push({
@@ -18,4 +18,4 @@ export function getStepperImages() {
   return images;
 }
 
-export const stepperImagesCount = 5; // Update this when adding more images
+export const stepperImagesCount = 8; // Update this when adding more images
