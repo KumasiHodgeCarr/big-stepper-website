@@ -509,6 +509,18 @@ export default function Home() {
             <p className="text-gray-600 text-sm">
               © 2025 BIG STEPPER. All rights reserved.
             </p>
+
+            <p className="text-gray-500 text-sm mt-4">
+              Made with ❤️ by{' '}
+              <a
+                href="https://x.com/IHumbleNot"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-stepper-gold hover:text-stepper-solar transition-colors"
+              >
+                @IHumbleNot
+              </a>
+            </p>
           </motion.div>
         </div>
       </footer>
