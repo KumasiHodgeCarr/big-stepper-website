@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #1C1C1C;
+  --foreground: #FFFFFF;
+  --step-gold: #F9B400;
+  --royal-purple: #5328A1;
+  --solar-glow: #FFEB6E;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  overflow-x: hidden;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.gradient-text {
+  background: linear-gradient(90deg, #5328A1 0%, #F9B400 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.hero-gradient {
+  background: radial-gradient(circle at 50% 50%, rgba(83, 40, 161, 0.2) 0%, transparent 50%);
+}
+
+.card-gradient {
+  background: linear-gradient(135deg, rgba(83, 40, 161, 0.15) 0%, rgba(249, 180, 0, 0.1) 100%);
+  border: 1px solid rgba(249, 180, 0, 0.3);
+}
+
+@keyframes stomp {
+  0%, 100% { transform: scale(1) rotate(0deg); }
+  25% { transform: scale(1.1) rotate(-2deg); }
+  75% { transform: scale(1.1) rotate(2deg); }
+}
+
+.animate-stomp {
+  animation: stomp 2s ease-in-out infinite;
+}
