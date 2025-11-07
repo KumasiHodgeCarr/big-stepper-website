@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "generate-images": "node scripts/generate-image-count.js",
+    "predev": "npm run generate-images",
     "dev": "next dev",
+    "prebuild": "npm run generate-images",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"

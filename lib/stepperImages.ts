@@ -1,13 +1,14 @@
 // Automatically includes all stepper images
-// To add more images: just add them to /public folder as stepper-N.png
-// and update the count below
+// Just add images to /public folder as stepper-N.png (numbered 1, 2, 3, etc.)
+// Run 'npm run generate-images' to detect new images
+
+import { IMAGE_COUNT } from './imageConfig';
 
 export function getStepperImages() {
   const images = [];
-  // Update this number when you add more stepper-N.png images to /public
-  const totalImages = 8;
 
-  for (let i = 1; i <= totalImages; i++) {
+  // Loop through all detected images
+  for (let i = 1; i <= IMAGE_COUNT; i++) {
     images.push({
       src: `/stepper-${i}.png`,
       alt: `Big Stepper ${i}`,
@@ -18,4 +19,4 @@ export function getStepperImages() {
   return images;
 }
 
-export const stepperImagesCount = 8; // Update this when adding more images
+export const stepperImagesCount = IMAGE_COUNT;
